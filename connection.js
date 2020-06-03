@@ -13,8 +13,8 @@ var pg = require('pg');
 var pool;
 var config = {
   user: 'postgres',
-  database: 'test',
-  password: 12345,
+  database: 'backendDB',
+  password: "12345",
   port: 5432, 
   max: 10,
   idleTimeoutMillis: 30000,
